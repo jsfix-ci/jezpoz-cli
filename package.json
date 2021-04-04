@@ -1,6 +1,6 @@
 {
   "name": "jezcli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Jezcli for running all the task a Jezpoz is doing.",
   "main": "bin/index.js",
   "bin": {
