@@ -1,5 +1,5 @@
 {
-  "name": "@jezpoz/jezcli",
+  "name": "jezcli",
   "version": "1.0.0",
   "preferGlobal": true,
   "bin": {
@@ -8,7 +8,6 @@
   "author": "Jesper M. Førisdahl",
   "license": "ISC",
   "dependencies": {
-    "@sanity/client": "^2.7.1",
     "commander": "^7.1.0",
     "prompts": "^2.4.0"
   },
