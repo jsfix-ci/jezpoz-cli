@@ -1,22 +1,37 @@
 {
   "name": "jezcli",
   "version": "1.0.1",
-  "preferGlobal": true,
+  "description": "Jezcli for running all the task a Jezpoz is doing.",
+  "main": "bin/index.js",
   "bin": {
     "jezcli": "bin/index.js"
   },
-  "author": "Jesper M. Førisdahl",
-  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "commander": "^7.1.0",
     "prompts": "^2.4.0"
-  },
-  "scripts": {
-    "test": "ava"
   },
   "devDependencies": {
     "ava": "^3.15.0",
     "proxyquire": "^2.1.3",
     "sinon": "^10.0.0"
-  }
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jezpoz/jezpoz-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Jesper Førisdahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jezpoz/jezpoz-cli/issues"
+  },
+  "homepage": "https://github.com/jezpoz/jezpoz-cli#readme"
 }
