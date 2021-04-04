@@ -1,0 +1,13 @@
+.navbar {
+  background-color: rgb(75, 75, 75);
+}
+
+.navbarItem {
+  color: white;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.navbarItem:hover {
+  background-color:black;
+}
