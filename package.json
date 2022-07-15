@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "commander": "^7.1.0",
+    "commander": "^8.3.0",
     "prompts": "^2.4.0"
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
   "scripts": {
     "test": "ava"
   },
-  "repository":"https://github.com/jezpoz/jezpoz-cli",
+  "repository": "https://github.com/jezpoz/jezpoz-cli",
   "keywords": [
     "cli"
   ],
